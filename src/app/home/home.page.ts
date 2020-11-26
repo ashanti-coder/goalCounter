@@ -24,4 +24,24 @@ counter = 0;
     this.counter = this.counter - 1;
   }
 
+
+cards(){
+    let stats;
+    switch (stats) {
+      case 0:
+          console.log("YelllowCard");
+          break;
+      case 1:
+          console.log("RedCard");
+          break;
+      case 2:
+          console.log("offSet");
+          break;
+          default:
+        console.log("no card");
+        break;
+}
+  
+  }
+
 }
